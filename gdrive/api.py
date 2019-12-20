@@ -60,9 +60,11 @@ def main():
 
     title, article_html = get_article_html(gdrive_api, doc_id)
     print(title)
+    #print (article_html)
     with open('test.html', 'w') as file:
         file.write(article_html)
     #print(article_html)
+
 
 
 if __name__ == '__main__':
