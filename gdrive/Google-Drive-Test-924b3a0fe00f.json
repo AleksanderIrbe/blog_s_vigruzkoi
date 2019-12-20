@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "xenon-bivouac-256618",
+  "private_key_id": "924b3a0fe00f36d6c6075b541bdd643cc7d3e0f0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCxGthnRR+fLsJ1\nlp/STPbt9XltYadW7lju3PBoedAyHUPD4TVyvzL0ubm8PBz/1GNxgmQvfKT7/7oP\noPn+mswyXL5X+wpjOgdT+sNPfxlrCkeIQSAOCLdaD9XkJeatGbrZ87le1tiqS6vb\na0N6ViggjDkJRhDu+dre4c0bevbRxPMbOOfCbupoOhdKs99gImF+Okr0VaBk79EF\nRTP6zrrNm6gufFsK52Zhr4waHU/4WKktgUJFlxeTrrWM83T3uaEIOc8R/U4UNYIa\nsufYsIQXz/5jr93SpAyk480E+LTNztdlRDlSonjmJ0ys8IMsuIZPbkZqquoeXkwg\nWGQsREzbAgMBAAECggEAB+GmdL4OQLK/g6Ue2qiDKqbMbxIz9LnpqkOZzURyf/Bu\ndhadHsykc2Cag+Z28emdPU1ssPJOk0pXmN90kKCJ6snWzKqG1VCdR972dyC0XF+a\nPFWNnCJGKpNe1Obc46Ir/wwKGU7dWILClKKq35Ra98vVs/Ryx3fGBjotOwZXWpFi\nvmh41mnjzf7uVamfeI9ZZ52uDbd3K9WUntuXH+qmMh+2soyhRCqDAMcmPMkTT2f5\nS1CfMJ6rNz2vtrRPh53HE2q0qbO3ahDxNNmLfGdbURlA81JxhGXe75AtmMN42jM2\nVuldp7S8D5x40hwTkzVvb12aNng2PWfiH5e7fmhwPQKBgQDW0R4SFUnv6uZdJS2G\n25WNb81j8khM0hk/zDoD1f+O+YQJ9W4q4hv9ydIgeT+nOfCZXbt0zCJ19XH91inm\nt7qzXLnJLw+tcadcX00qsZMU37GtlB9mzNPbvYw7JzVQu8qB3AoXvaQrOOseuYtS\nGGx9tUXaMlFffFoHpioJOaEapQKBgQDTDuFzgihtLfTbDfXl3Z13D21qBgAVAa19\n6tw6rSVbmUo8ouKUVIbXH0pkvmAK7GBdHghhcb5gwl2jRY23KQPqL4j4HRc5Kmbj\nK/4W3WWGAElSYlX53g9y1F9S74gs7oF0us2AgYRFTr2n3XXPI76oMn2aVx89Vdwb\ncaKyAnyxfwKBgQDNDWRk4olnSJSIyRpCJo0FK3mlM/qryclsSqf+TWHauna9gtec\ne6U4hlPbx6FpITd3Ti/H96vVaWtcX/gzUaIX4CU/03pll52n4Rip7kN1o2nZRREM\nceyxTqfzNyP/YqKVftLrgoyY7YYSGA7TWJkHDegVtf5S5UKTFpv9nlMYOQKBgQDO\nohwCPaUct0ipinJ7mUxIO5dwnO1Jo7natKzm2YvgsSRoV0Sj2lmlleH83hIjv6bc\no8GqvXSZQNHyPu9vKj3F8sITwE9zTVssAG8krZ9u4Srn+JSaLFlNoDSvewoEi4G8\n6gK2VJdOT7gI+B4WLbXE8KHeEHvqTfxP9iJGS38POwKBgQDAn4T6ohPMuj1FH1lq\ncd9LaBZFseb/xWpxyppYYr5GlPhH78jIJkXtC+5lIbze5uYhBdMLtpXRV7OF8f2j\nJom99t0gdPacGHU6uden79g7itCdHQxblicRgGN6bft2ryRvLjmTew4vx/yHclNX\n8+LZMtmhxplmXoJGdVbUtCP+yQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "aleksander@xenon-bivouac-256618.iam.gserviceaccount.com",
+  "client_id": "105941288009553467828",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/aleksander%40xenon-bivouac-256618.iam.gserviceaccount.com"
+}
