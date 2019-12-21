@@ -16,14 +16,29 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.shortcuts import render
+import os
+from gdrive import api
+
+
+
+def render_post(request):
+    google_scope = [
+        # 'https://www.googleapis.com/auth/spreadsheets', # disabled
+        'https://www.googleapis.com/auth/drive',
+    ]
+    doc_id = '17coS88dCReNY_psETrhNCvz39tFlsc7DUrkxFXwC7HA'
+
+    gdrive_api = api.auth_in_google_drive(google_scope, os.getenv('GAPI_CREDENTIALS'))
+
+    title, article_html = api.get_article_html(gdrive_api, doc_id)
+
+    return render(request, template_name='post.html', context={'article_html':article_html, 'title':title})
 
 urlpatterns = [
     path('', render, kwargs={
         'template_name': 'index.html',
     }),
-    path('post/', render, kwargs={
-        'template_name': 'post.html',
-    }),
+    path('post/', render_post),
     path('category/', render, kwargs={
         'template_name': 'category.html',
     }),
