@@ -5,3 +5,4 @@ dj_blog/__pycache__/
 dj_blog/__pycache__/
 
 gdrive/__pycache__/
+db.sqlite3
