@@ -1,4 +1,6 @@
-# Заготовка для блога
+# Учебный блог с выгрузкой материалов из Google Docks
+
+Все материалы взяты из вебинара  <a href="https://youtu.be/J-0hdScIJSY">youtu.be/J-0hdScIJSY</a>
 
 Это заготовка для нового проекта — блога. В репозитории лежит Django проект с готовым фронтендом. За основу взята тема к Boostrap 4 [Artika HTML](https://github.com/prianto/artika-html).
 
