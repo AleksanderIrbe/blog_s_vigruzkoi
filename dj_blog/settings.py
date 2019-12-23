@@ -125,3 +125,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'common_static'),
 ]
+
+GAPI_CREDENTIALS_FILEPATH = os.getenv('GAPI_CREDENTIALS')

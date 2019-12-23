@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 # Create your models here.
 class Post(models.Model):
@@ -6,7 +7,7 @@ class Post(models.Model):
 		('rockets', 'ракеты'),
 		('science', 'наука'), 
 	]
-	slug =models.SlugField(unique=True)
+	slug = models.SlugField(unique=True)
 	google_doc_id = models.CharField('id гугл документа', max_length=100, null=True, blank=True, db_index=True)
 	category = models.CharField('категория', max_length=20, choices=CATEGORIES, db_index=True)
 
@@ -22,4 +23,10 @@ class Post(models.Model):
 
 	def __str__(self):
 		return self.slug
+
+	def get_absolute_url(self):
+		return reverse('post', kwargs={
+			'slug': self.slug,
+
+			})
 		

@@ -6,3 +6,5 @@ dj_blog/__pycache__/
 
 gdrive/__pycache__/
 db.sqlite3
+posts/migrations/__pycache__/
+*.pyc

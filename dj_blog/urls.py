@@ -19,23 +19,13 @@ from django.shortcuts import render, get_object_or_404
 
 from posts.models import Post
 
-import os
-from gdrive import api
-
 
 
 def render_post(request, slug):
+    #FIXME ограничить выборку
+    #TODO переместить view в приложение posts
     post = get_object_or_404(Post, slug=slug)
-    # google_scope = [
-    #     # 'https://www.googleapis.com/auth/spreadsheets', # disabled
-    #     'https://www.googleapis.com/auth/drive',
-    # ]
-    # doc_id = '17coS88dCReNY_psETrhNCvz39tFlsc7DUrkxFXwC7HA'
-
-    # gdrive_api = api.auth_in_google_drive(google_scope, os.getenv('GAPI_CREDENTIALS'))
-
-    # title, article_html = api.get_article_html(gdrive_api, doc_id)
-
+    
     return render(request, template_name='post.html', context={
                                                         'article_html': post.html,
                                                         'title':post.title
@@ -45,7 +35,7 @@ urlpatterns = [
     path('', render, kwargs={
         'template_name': 'index.html',
     }),
-    path('post/<slug:slug>/', render_post),
+    path('post/<slug:slug>/', render_post, name='post'),
     path('category/', render, kwargs={
         'template_name': 'category.html',
     }),
